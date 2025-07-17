@@ -31,6 +31,14 @@ if (respuesta_numerica== 1) {
         cout << "¿A qué exponente desea elevar x^2? ";
         cin >> exponente;
         cout << "Su funcion es: x^(" << 2 * exponente << ")" << endl;
+        cout << "¿Qué operación desea realizar?" << endl;
+        cout << "1. Elevar a un número" << endl;
+        cout << "2. Multiplicar por un número" << endl;
+        cout << "3. Sumar un número" << endl;
+        cin >> operacion;
+
+
+
         cout << "Escriba un valor para x: ";
         cin >> valor_x;
         cout << "El resultado es: " << pow(valor_x, 2 * exponente) << endl;
